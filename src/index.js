@@ -9,7 +9,7 @@ function style(cssString) {
 
 function component() {
   const element = document.createElement("div");
-  element.innerHTML = _.join(["Webpack Demo", "hihi"], ": ");
+  element.innerHTML = _.join(["Webpack", "hihi"], ": ");
 
   return element;
 }
